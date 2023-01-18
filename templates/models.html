@@ -10,7 +10,13 @@
     <tbody>
     {% for model in models %}
     <tr>
-        <td><a href="{{ model.repository_url }}">{{ model.name }}</a></td>
+        <td>
+            {%- if model.repository_url -%}
+            <a href="{{ model.repository_url }}">{{ model.name }}</a>
+            {%- else -%}
+            <p>{{ model.name }}</p>
+            {%- endif -%}
+        </td>
         <td>
             <p>
             {{ model.description }}

@@ -345,6 +345,100 @@
         },
 
         {
+            "name": "ACertainty",
+            "files": [
+                {
+                    "path": "models/Stable-diffusion/ACertainty.ckpt", 
+                    "url": "https://huggingface.co/JosephusCheung/ACertainty/blob/main/ACertainty.ckpt"
+                }
+            ],
+            "description": "A carefully designed model that is well-suited for further fine-tuning and training for use in dreambooth",
+            "tags": [
+                "SD_Model"
+            ],
+            "repository_url": "https://huggingface.co/JosephusCheung/ACertainty"
+        },
+
+        {
+            "name": "Hentai Diffusion",
+            "files": [
+                {
+                    "path": "models/Stable-diffusion/HD-19.ckpt", 
+                    "url": "https://huggingface.co/Deltaadams/HentaiDiffusion/blob/main/HD-19.ckpt"
+                }
+            ],
+            "description": "Anime focused model with better hands, obscure poses/camera angles and consistent style.",
+            "tags": [
+                "SD_Model",
+                "NSFW"
+            ],
+            "repository_url": "https://huggingface.co/Deltaadams/HentaiDiffusion"
+        },
+
+        {
+            "name": "Zeipher Female Model",
+            "files": [
+                {
+                    "path": "models/Stable-diffusion/f222.ckpt", 
+                    "url": "https://huggingface.co/Reachout/F222/blob/main/f222.ckpt"
+                }
+            ],
+            "description": "For creating images of nude solo women. Also known as f222.",
+            "tags": [
+                "SD_Model",
+                "NSFW"
+            ],
+            "repository_url": "https://huggingface.co/Reachout/F222"
+        },
+
+        {
+            "name": "HassanBlend1.5.1.2",
+            "files": [
+                {
+                    "path": "models/Stable-diffusion/HassanBlend1.5.1.2-pruned.ckpt", 
+                    "url": "https://huggingface.co/hassanblend/HassanBlend1.5.1.2/blob/main/HassanBlend1.5.1.2-pruned.ckpt"
+                }
+            ],
+            "description": "This model was for creating people",
+            "tags": [
+                "SD_Model",
+                "NSFW"
+            ],
+            "repository_url": "https://huggingface.co/hassanblend/HassanBlend1.5.1.2"
+        },
+
+        {
+            "name": "HassanBlend1.5",
+            "files": [
+                {
+                    "path": "models/Stable-diffusion/HassanBlend1.5.ckpt", 
+                    "url": "https://huggingface.co/hassanblend/HassanBlend1.5.1.2/blob/main/HassanBlend1.5.ckpt"
+                }
+            ],
+            "description": "This model was for creating people",
+            "tags": [
+                "SD_Model",
+                "NSFW"
+            ],
+            "repository_url": "https://huggingface.co/hassanblend/hassanblend1.5"
+        },
+
+        {
+            "name": "Zack3D Kinky",
+            "files": [
+                {
+                    "path": "models/Stable-diffusion/Zack3D_Kinky-v1.ckpt", 
+                    "url": "https://sexy.canine.wf/file/furry-ckpt/Zack3D_Kinky-v1.ckpt"
+                }
+            ],
+            "description": "Kink/NSFW oriented furry styled generations.",
+            "tags": [
+                "SD_Model",
+                "NSFW"
+            ]
+        },
+
+        {
             "name": "toho-pixel",
             "files": [
                 {
