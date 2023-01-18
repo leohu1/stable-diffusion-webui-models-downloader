@@ -121,7 +121,7 @@ def create_downloader_tab():
     html = ""
     with gr.Column():
         load_url_textbox = gr.Textbox(
-            value="https://raw.githubusercontent.com/leohu1/stable-diffusion-webui-models-downloader/main/models.json", 
+            value="https://raw.githubusercontent.com/leohu1/stable-diffusion-models-library/main/models.json", 
             elem_id="load_url_textbox", label="Models JSON Url")
         load_model_json_button = gr.Button(value="Load", elem_id="Load_model_button")
     with gr.Column(visible=False):
