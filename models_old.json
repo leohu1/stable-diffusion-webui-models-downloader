@@ -1,0 +1,444 @@
+{
+    "about": "Write the model and embedding URLs in this file in JSON format.",
+    "tags": {
+        "stable_diffusion": "",
+        "vae": "",
+        "textual_inversion_embedding": "",
+        "hypernetwork": "",
+        "aesthetic_embedding": ""
+    },
+    "models": [
+        {
+            "name": "trinart-characters-19m",
+            "url": "https://huggingface.co/naclbit/trinart_characters_19.2m_stable_diffusion_v1/blob/main/trinart_characters_it4_v1.ckpt",
+            "description": "",
+            "tags": [
+                "stable_diffusion"
+            ]
+        },
+        {
+            "name": "trinart2-step115000",
+            "url": "https://huggingface.co/naclbit/trinart_stable_diffusion_v2/blob/main/trinart2_step115000.ckpt",
+            "description": "",
+            "tags": [
+                "stable_diffusion"
+            ]
+        },
+        {
+            "name": "trinart2-step95000",
+            "url": "https://huggingface.co/naclbit/trinart_stable_diffusion_v2/blob/main/trinart2_step95000.ckpt",
+            "description": "",
+            "tags": [
+                "stable_diffusion"
+            ]
+        },
+        {
+            "name": "trinart2-step60000",
+            "url": "https://huggingface.co/naclbit/trinart_stable_diffusion_v2/blob/main/trinart2_step60000.ckpt",
+            "description": "",
+            "tags": [
+                "stable_diffusion"
+            ]
+        },
+        {
+            "name": "waifu-v13-penultimate",
+            "url": "https://huggingface.co/hakurei/waifu-diffusion-v1-4/blob/main/models/wd-1-3-penultimate-ucg-cont.ckpt",
+            "description": "",
+            "tags": [
+                "stable_diffusion"
+            ]
+        },
+        {
+            "name": "waifu-v13-float32",
+            "url": "https://huggingface.co/hakurei/waifu-diffusion-v1-3/blob/main/wd-v1-3-float32.ckpt",
+            "description": "",
+            "tags": [
+                "stable_diffusion"
+            ]
+        },
+        {
+            "name": "waifu-v13-float16",
+            "url": "https://huggingface.co/hakurei/waifu-diffusion-v1-3/blob/main/wd-v1-3-float16.ckpt",
+            "description": "",
+            "tags": [
+                "stable_diffusion"
+            ]
+        },
+        {
+            "name": "waifu-v12-prune",
+            "url": "https://huggingface.co/crumb/pruned-waifu-diffusion/blob/main/model-pruned.ckpt",
+            "description": "",
+            "tags": [
+                "stable_diffusion"
+            ]
+        },
+        {
+            "name": "stable-v15",
+            "url": "https://huggingface.co/runwayml/stable-diffusion-v1-5/blob/main/v1-5-pruned-emaonly.ckpt",
+            "description": "",
+            "tags": [
+                "stable_diffusion"
+            ]
+        },
+        {
+            "name": "stable-v15-inpainting",
+            "url": "https://huggingface.co/runwayml/stable-diffusion-inpainting/blob/main/sd-v1-5-inpainting.ckpt",
+            "description": "",
+            "tags": [
+                "stable_diffusion"
+            ]
+        },
+        {
+            "name": "stable-v14",
+            "url": "https://huggingface.co/CompVis/stable-diffusion-v-1-4-original/blob/main/sd-v1-4.ckpt",
+            "description": "",
+            "tags": [
+                "stable_diffusion"
+            ]
+        },
+        {
+            "name": "pokemon",
+            "url": "https://huggingface.co/justinpinkney/pokemon-stable-diffusion/blob/main/ema-only-epoch%3D000142.ckpt",
+            "description": "",
+            "tags": [
+                "stable_diffusion"
+            ]
+        },
+        {
+            "name": "robo-v1",
+            "url": "https://huggingface.co/nousr/robo-diffusion/blob/main/models/robo-diffusion-v1.ckpt",
+            "description": "",
+            "tags": [
+                "stable_diffusion"
+            ]
+        },
+        {
+            "name": "eva-v22-not-hd",
+            "url": "https://huggingface.co/crumb/eva-model-ckpt/blob/main/eva-fusion-v2.22-notHD.ckpt",
+            "description": "",
+            "tags": [
+                "stable_diffusion"
+            ]
+        },
+        {
+            "name": "eva-v21",
+            "url": "https://huggingface.co/crumb/eva-model-ckpt/blob/main/eva-fusion-v2.1.ckpt",
+            "description": "",
+            "tags": [
+                "stable_diffusion"
+            ]
+        },
+        {
+            "name": "icon",
+            "url": "https://huggingface.co/crumb/icon-diffusion-ckpt/blob/main/icon-diffusion.ckpt",
+            "description": "",
+            "tags": [
+                "stable_diffusion"
+            ]
+        },
+        {
+            "name": "midjourney-v4",
+            "url": "https://huggingface.co/prompthero/midjourney-v4-diffusion/blob/main/mdjrny-v4.ckpt",
+            "description": "Trigger phrase:\nmdjrny-v4 style",
+            "tags": [
+                "stable_diffusion"
+            ]
+        },
+        {
+            "name": "pixel-art-sprite-sheet-v1",
+            "url": "https://huggingface.co/Onodofthenorth/SD_PixelArt_SpriteSheet_Generator/blob/main/PixelartSpritesheet_V.1.ckpt",
+            "description": "Trigger phrase:\nPixelartFSS\nPixelartRSS\nPixelartBSS\nPixelartLSS",
+            "tags": [
+                "stable_diffusion"
+            ]
+        },
+        {
+            "name": "deathnote-v2",
+            "url": "https://huggingface.co/Guizmus/DeathNote/blob/main/DeathNote_v2_4k.ckpt",
+            "description": "Trigger phrase:\nDNStyle style\nLight Yagami man\nRyuk demon",
+            "tags": [
+                "stable_diffusion"
+            ]
+        },
+        {
+            "name": "arcane-v3",
+            "url": "https://huggingface.co/nitrosocke/Arcane-Diffusion/blob/main/arcane-diffusion-v3.ckpt",
+            "description": "Trigger phrase:\narcane style",
+            "tags": [
+                "stable_diffusion"
+            ]
+        },
+        {
+            "name": "arcane-v2",
+            "url": "https://huggingface.co/nitrosocke/Arcane-Diffusion/blob/main/arcane-diffusion-v2.ckpt",
+            "description": "Trigger phrase:\narcane style",
+            "tags": [
+                "stable_diffusion"
+            ]
+        },
+        {
+            "name": "eldenring-v3",
+            "url": "https://huggingface.co/nitrosocke/elden-ring-diffusion/blob/main/eldenRing-v3-pruned.ckpt",
+            "description": "Trigger phrase:\nelden ring style",
+            "tags": [
+                "stable_diffusion"
+            ]
+        },
+        {
+            "name": "eldenring-v2",
+            "url": "https://huggingface.co/nitrosocke/elden-ring-diffusion/blob/main/eldenring-v2-pruned.ckpt",
+            "description": "Trigger phrase:\nelden ring style",
+            "tags": [
+                "stable_diffusion"
+            ]
+        },
+        {
+            "name": "eldenring-v1",
+            "url": "https://huggingface.co/nitrosocke/elden-ring-diffusion/blob/main/eldenring-v1-pruned.ckpt",
+            "description": "Trigger phrase:\nelden ring style",
+            "tags": [
+                "stable_diffusion"
+            ]
+        },
+        {
+            "name": "spiderverse-v1",
+            "url": "https://huggingface.co/nitrosocke/spider-verse-diffusion/blob/main/spiderverse-v1-pruned.ckpt",
+            "description": "Trigger phrase:\nspiderverse style",
+            "tags": [
+                "stable_diffusion"
+            ]
+        },
+        {
+            "name": "archer-v1",
+            "url": "https://huggingface.co/nitrosocke/archer-diffusion/blob/main/archer-v1.ckpt",
+            "description": "Trigger phrase:\narcher style",
+            "tags": [
+                "stable_diffusion"
+            ]
+        },
+        {
+            "name": "modern-disney-v1",
+            "url": "https://huggingface.co/nitrosocke/mo-di-diffusion/blob/main/modernDisney-v1-pruned.ckpt",
+            "description": "Trigger phrase:\nmodern disney style",
+            "tags": [
+                "stable_diffusion"
+            ]
+        },
+        {
+            "name": "cyberpunk-anime",
+            "url": "https://huggingface.co/DGSpitzer/Cyberpunk-Anime-Diffusion/blob/main/Cyberpunk-Anime-Diffusion.ckpt",
+            "description": "Trigger phrase:\ndgs illustration style",
+            "tags": [
+                "stable_diffusion"
+            ]
+        },
+        {
+            "name": "tohoku-v1",
+            "url": "https://huggingface.co/shirayu/sd-tohoku-v1/blob/main/sd-tohoku-v1.model.ckpt",
+            "description": "Trigger phrase:\nitako\nzunko\nkiritan\nzundamon\nmetan",
+            "tags": [
+                "stable_diffusion"
+            ]
+        },
+        {
+            "name": "ff14-v1",
+            "url": "https://huggingface.co/herpritts/xivcine_person_v1/blob/main/xivcine_person_v1.ckpt",
+            "description": "Trigger phrase:\nxivcine person",
+            "tags": [
+                "stable_diffusion"
+            ]
+        },
+        {
+            "name": "borderlands",
+            "url": "https://huggingface.co/PublicPrompts/borderlands/blob/main/borderlands.ckpt",
+            "description": "Trigger phrase:\nborderlands",
+            "tags": [
+                "stable_diffusion"
+            ]
+        },
+        {
+            "name": "cats-musical",
+            "url": "https://huggingface.co/dallinmackay/Cats-Musical-diffusion/blob/main/Cats-Musical-Style-ctsmscl.ckpt",
+            "description": "Trigger phrase:\nctsmscl",
+            "tags": [
+                "stable_diffusion"
+            ]
+        },
+        {
+            "name": "van-gogh",
+            "url": "https://huggingface.co/dallinmackay/Van-Gogh-diffusion/blob/main/Van-Gogh-Style-lvngvncnt-v2.ckpt",
+            "description": "Trigger phrase:\nlvngvncnt",
+            "tags": [
+                "stable_diffusion"
+            ]
+        },
+        {
+            "name": "tron-legacy",
+            "url": "https://huggingface.co/dallinmackay/Tron-Legacy-diffusion/blob/main/Tron-Legacy-Style-trnlgcy.ckpt",
+            "description": "Trigger phrase:\ntrnlgcy",
+            "tags": [
+                "stable_diffusion"
+            ]
+        },
+        {
+            "name": "classic-anim",
+            "url": "https://huggingface.co/nitrosocke/classic-anim-diffusion/blob/main/classicAnim-v1.ckpt",
+            "description": "Trigger phrase:\nclassic disney style",
+            "tags": [
+                "stable_diffusion"
+            ]
+        },
+        {
+            "name": "poolsuite",
+            "url": "https://huggingface.co/prompthero/poolsuite-diffusion/blob/main/poolsuite_step2010.ckpt",
+            "description": "Trigger phrase:\npoolsuite style",
+            "tags": [
+                "stable_diffusion"
+            ]
+        },
+        {
+            "name": "paper-cut-v1",
+            "url": "https://huggingface.co/Fictiverse/Stable_Diffusion_PaperCut_Model/blob/main/PaperCut_v1.ckpt",
+            "description": "Trigger phrase:\nPaperCut",
+            "tags": [
+                "stable_diffusion"
+            ]
+        },
+        {
+            "name": "trinart-characters-19m",
+            "url": "https://huggingface.co/naclbit/trinart_characters_19.2m_stable_diffusion_v1/blob/main/autoencoder_fix_kl-f8-trinart_characters.ckpt",
+            "description": "",
+            "tags": [
+                "vae"
+            ]
+        },
+        {
+            "name": "waifu-v14-anime2",
+            "url": "https://huggingface.co/hakurei/waifu-diffusion-v1-4/blob/main/vae/kl-f8-anime2.ckpt",
+            "description": "",
+            "tags": [
+                "vae"
+            ]
+        },
+        {
+            "name": "waifu-v14-anime1",
+            "url": "https://huggingface.co/hakurei/waifu-diffusion-v1-4/blob/main/vae/kl-f8-anime.ckpt",
+            "description": "",
+            "tags": [
+                "vae"
+            ]
+        },
+        {
+            "name": "sd-vae-ft-mse",
+            "url": "https://huggingface.co/stabilityai/sd-vae-ft-mse-original/blob/main/vae-ft-mse-840000-ema-pruned.ckpt",
+            "description": "",
+            "tags": [
+                "vae"
+            ]
+        },
+        {
+            "name": "sd-vae-ft-ema",
+            "url": "https://huggingface.co/stabilityai/sd-vae-ft-ema-original/blob/main/vae-ft-ema-560000-ema-pruned.ckpt",
+            "description": "",
+            "tags": [
+                "vae"
+            ]
+        },
+        {
+            "name": "toho-pixel",
+            "url": "https://huggingface.co/sd-concepts-library/toho-pixel/blob/main/learned_embeds.bin",
+            "description": "",
+            "tags": [
+                "textual_inversion_embedding"
+            ]
+        },
+        {
+            "name": "pokemon-conquest",
+            "url": "https://huggingface.co/sd-concepts-library/pokemon-conquest-sprites/blob/main/learned_embeds.bin",
+            "description": "",
+            "tags": [
+                "textual_inversion_embedding"
+            ]
+        },
+        {
+            "name": "gba-pokemon",
+            "url": "https://huggingface.co/sd-concepts-library/gba-pokemon-sprites/blob/main/learned_embeds.bin",
+            "description": "",
+            "tags": [
+                "textual_inversion_embedding"
+            ]
+        },
+        {
+            "name": "zelda",
+            "url": "https://huggingface.co/wavymulder/zelda-diffusion-HN/blob/main/zeldaBOTW.pt",
+            "description": "",
+            "tags": [
+                "hypernetwork"
+            ]
+        },
+        {
+            "name": "aivazovsky",
+            "url": "https://github.com/vicgalle/stable-diffusion-aesthetic-gradients/blob/main/aesthetic_embeddings/aivazovsky.pt",
+            "description": "",
+            "tags": [
+                "aesthetic_embedding"
+            ]
+        },
+        {
+            "name": "cloudcore",
+            "url": "https://github.com/vicgalle/stable-diffusion-aesthetic-gradients/blob/main/aesthetic_embeddings/cloudcore.pt",
+            "description": "",
+            "tags": [
+                "aesthetic_embedding"
+            ]
+        },
+        {
+            "name": "fantasy",
+            "url": "https://github.com/vicgalle/stable-diffusion-aesthetic-gradients/blob/main/aesthetic_embeddings/fantasy.pt",
+            "description": "",
+            "tags": [
+                "aesthetic_embedding"
+            ]
+        },
+        {
+            "name": "flower_plant",
+            "url": "https://github.com/vicgalle/stable-diffusion-aesthetic-gradients/blob/main/aesthetic_embeddings/flower_plant.pt",
+            "description": "",
+            "tags": [
+                "aesthetic_embedding"
+            ]
+        },
+        {
+            "name": "gloomcore",
+            "url": "https://github.com/vicgalle/stable-diffusion-aesthetic-gradients/blob/main/aesthetic_embeddings/gloomcore.pt",
+            "description": "",
+            "tags": [
+                "aesthetic_embedding"
+            ]
+        },
+        {
+            "name": "glowwave",
+            "url": "https://github.com/vicgalle/stable-diffusion-aesthetic-gradients/blob/main/aesthetic_embeddings/glowwave.pt",
+            "description": "",
+            "tags": [
+                "aesthetic_embedding"
+            ]
+        },
+        {
+            "name": "laion_7plus",
+            "url": "https://github.com/vicgalle/stable-diffusion-aesthetic-gradients/blob/main/aesthetic_embeddings/laion_7plus.pt",
+            "description": "",
+            "tags": [
+                "aesthetic_embedding"
+            ]
+        },
+        {
+            "name": "sac_8plus",
+            "url": "https://github.com/vicgalle/stable-diffusion-aesthetic-gradients/blob/main/aesthetic_embeddings/sac_8plus.pt",
+            "description": "",
+            "tags": [
+                "aesthetic_embedding"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+#models_downloader_tab table{
+    border-collapse: collapse;
+    margin: 5px;
+}
+
+#models_downloader_tab table td, #models_downloader_tab table th{
+    border: 1px solid #ccc;
+    padding: 0.25em 0.5em;
+}
+
+#models_downloader_tab table input[type="checkbox"]{
+    margin-right: 0.5em;
+}
+
+#models_downloader_tab button{
+    max-width: 16em;
+}
+
+#models_downloader_tab input[disabled="disabled"]{
+    opacity: 0.5;
+}
+
+.extension-tag{
+    font-weight: bold;
+    font-size: 95%;
+}

@@ -1,0 +1,35 @@
+<table id="models">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Tags</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+    {% for model in models %}
+    <tr>
+        <td><a href="{{ model.repository_url }}">{{ model.name }}</a></td>
+        <td>
+            <p>
+            {{ model.description }}
+            </p>
+        </td>
+        <td>
+            {% for tag in model.tags %}
+            <span class="extension-tag">{{ tag }}</span>
+            {% endfor %}
+        </td>
+        <td>
+            <input onclick="start_download_model(this, '{{ model.idx }}')" 
+                   type="button"  
+                   class="gr-button gr-button-lg gr-button-secondary"
+                   value={%- if model.is_downloaded -%} "Downloaded" {%- else -%} "Download" {%- endif -%}
+                   {%- if model.is_downloaded -%} disabled {%- endif -%}
+            />
+        </td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
